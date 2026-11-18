@@ -7,8 +7,8 @@ driver = webdriver.Chrome()
 driver.get("https://demoqa.com/text-box")
 driver.maximize_window()
 
-driver.find_element(By.ID, "userName").send_keys("catherin")
-driver.find_element(By.ID, "userEmail").send_keys("catherin@gmail.com")
+driver.find_element(By.ID, "userName").send_keys("eldrin")
+driver.find_element(By.ID, "userEmail").send_keys("eldrin@gmail.com")
 driver.find_element(By.ID, "currentAddress").send_keys("Thrissur")
 driver.find_element(By.ID, "permanentAddress").send_keys("Kerala")
 
